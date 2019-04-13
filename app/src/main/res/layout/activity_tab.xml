@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark1"
+    android:orientation="vertical"
+    tools:context=".TabActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_window"
+        android:background="#1e272c"
+        app:titleTextColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        app:titleTextAppearance="@style/titletext"
+        android:theme="@style/toolbarone"
+        app:popupTheme="@style/Widget.MaterialComponents.PopupMenu.Overflow"/>
+
+        <!--<androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="#1e272c"
+            app:titleTextColor="#ffffff"
+            app:popupTheme="@style/toolbarone"
+         />-->
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e272c"
+        app:tabMode="fixed"
+        app:tabTextColor="#808080"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabIndicatorColor="#dcdcdc">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <fr.pmobile.watchlist.CustomViewPager
+        android:layout_marginTop="10dp"
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </fr.pmobile.watchlist.CustomViewPager>
+
+</LinearLayout>

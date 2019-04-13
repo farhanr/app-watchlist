@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/capriola</item>
+        <item>@font/hammersmith_one</item>
+        <item>@font/merriweather</item>
+        <item>@font/merriweather_light</item>
+        <item>@font/open_sans</item>
+        <item>@font/open_sans_bold</item>
+        <item>@font/open_sans_semibold</item>
+        <item>@font/pt_sans_bold</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/varela_round</item>
+        <item>@font/work_sans_medium</item>
+    </array>
+</resources>

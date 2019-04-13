@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_fav" android:icon="@drawable/ic_bookmark_white_24dp" android:title="Favorite" app:showAsAction="always" android:orderInCategory="1" />
+    <item android:id="@+id/action_search" android:icon="@drawable/ic_search_white_24dp" android:title="Search" app:showAsAction="always" android:orderInCategory="2"/>
+    <item android:id="@+id/action_more" android:icon="@drawable/ic_more_vert_white_24dp" android:title="More.." app:showAsAction="always" android:orderInCategory="3">
+        <menu>
+            <item android:id="@+id/action_credit" android:icon="@drawable/ic_person_black_24dp" android:title="Credits" app:showAsAction="never" android:orderInCategory="4"/>
+            <item android:id="@+id/action_setting" android:icon="@drawable/ic_settings_applications_black_24dp" android:title="Settings" app:showAsAction="never" android:orderInCategory="5"/>
+        </menu>
+    </item>
+
+</menu>

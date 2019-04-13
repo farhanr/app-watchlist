@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LauncherTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="toolbarone" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:colorBackground">#dcdcdc</item>
+        <item name="android:textColor">@color/dark1</item>
+        <item name="android:actionMenuTextColor">#ff6600</item>
+        <item name="actionBarItemBackground">@color/teal</item>
+        <item name="actionMenuTextColor">#ffffff</item>
+        <item name="colorPrimary">#ff6600</item>
+        <item name="colorPrimaryDark">#b39990</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="titletext" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>

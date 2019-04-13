@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fr.pmobile.watchlist.SwipeRevealLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    app:dragFromEdge="left"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|end"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/info_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="Info"/>
+
+            <ImageButton
+                android:id="@+id/edit_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="Edit"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            app:strokeColor="#ffffff"
+            app:strokeWidth="0dp"
+            android:id="@+id/cv_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="3dp"
+            cardview:cardCornerRadius="3dp"
+            cardview:cardUseCompatPadding="true"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:srcCompat="@drawable/ldr"
+                    android:scaleType="centerCrop" />
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/tv_title"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/iv_poster"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="LOVE, DEATH, ROBOTS"
+                    android:textAlignment="viewStart"
+                    android:textColor="#ffffff"
+                    android:textSize="26sp"
+                    app:fontFamily="@font/pt_sans_bold"
+                    app:outlineColor="#000000"
+                    app:outlineWidth="0"
+                    android:background="#000000"/>
+
+                <TextView
+                    android:id="@+id/tv_genre"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_poster"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="false"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="genre"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+</fr.pmobile.watchlist.SwipeRevealLayout>

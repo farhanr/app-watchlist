@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/iv_posterdetail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ldr"
+        android:scaleType="matrix"/>
+
+    <TextView
+        android:id="@+id/tv_titledetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_posterdetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/work_sans_medium"
+        android:text="Love Death Robots"
+        android:textColor="#ffffff"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/tv_dateDetail"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_titledetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="2019"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_genreDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dateDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/varela_round"
+        android:text="Sci-Fi, Animation, Drama"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_desc"
+        android:layout_below="@id/tv_genreDetail"
+        android:layout_above="@+id/ll_spec"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tv_descDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/merriweather_light"
+            android:text="awdawdawd"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="1.5dp"
+            android:background="#dcdcdc"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_spec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dcdcdc"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RELEASED"
+            android:textColor="?android:attr/colorPrimary"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Duration: 120 min"
+            android:textColor="?android:attr/colorPrimary"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

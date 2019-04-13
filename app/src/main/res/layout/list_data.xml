@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    android:id="@+id/swipe"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:swipe="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/bot_wrap"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+
+            <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                android:id="@+id/circ_indicator"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:direction="clockwise"
+                app:drawDot="false"
+                app:progressCap="round"
+                app:progressColor="#27dbac"
+                app:progressStrokeWidth="4dp"
+                app:progressBackgroundStrokeWidth="3dp"
+                app:textSize="14dp"
+                android:textAlignment="center"
+                app:textColor="#ffffff"
+                app:enableProgressAnimation="true"
+                app:progressBackgroundColor="#006666"
+                />
+
+            <TextView
+                android:id="@+id/tv_userscore"
+                android:gravity="center_vertical"
+                android:layout_alignTop="@id/circ_indicator"
+                android:layout_alignBottom="@id/circ_indicator"
+                android:textSize="14dp"
+                android:layout_toEndOf="@id/circ_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="USER SCORE"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_below="@id/circ_indicator"
+                app:strokeColor="#ffffff"
+                app:strokeWidth="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_alignParentStart="true"
+                android:id="@+id/cv_1"
+
+                android:elevation="3dp"
+                cardview:cardCornerRadius="3dp"
+                cardview:cardUseCompatPadding="true">
+
+                <TextView
+                    android:text="WATCH TRAILER"
+                    android:id="@+id/tv_sec_watch"
+                    android:textSize="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#1e272c"
+                    android:textColor="#ffffff"
+                    android:gravity="center"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                app:strokeColor="#ffffff"
+                app:strokeWidth="2dp"
+                android:id="@+id/cv_2"
+                android:layout_below="@id/cv_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:elevation="3dp"
+                cardview:cardCornerRadius="3dp"
+                cardview:cardUseCompatPadding="true">
+
+            <TextView
+                android:text="SEARCH ON WEB"
+                android:id="@+id/tv_sec_search"
+                android:background="#1e272c"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_3"
+                android:layout_below="@+id/cv_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="3dp"
+                cardview:cardCornerRadius="3dp"
+                cardview:cardUseCompatPadding="true">
+
+                <TextView
+                    android:text="SHARE"
+                    android:id="@+id/tv_sec_share"
+                    android:layout_width="match_parent"
+                    android:background="#dcdcdc"
+                    android:textColor="#000000"
+                    android:layout_height="40dp"
+                    android:textSize="14dp"
+                    android:gravity="center"/>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wrapper"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            app:strokeColor="#ffffff"
+            app:strokeWidth="0dp"
+            android:id="@+id/cv_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="3dp"
+            cardview:cardCornerRadius="3dp"
+            cardview:cardUseCompatPadding="true"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                >
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/iv_bookmark"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp" />
+
+                <ImageView
+                    android:id="@+id/iv_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:srcCompat="@drawable/ldr"
+                    android:scaleType="centerCrop" />
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/tv_title"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/iv_poster"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="LOVE, DEATH, ROBOTS"
+                    android:textAlignment="viewStart"
+                    android:textColor="#ffffff"
+                    android:textSize="26sp"
+                    app:fontFamily="@font/pt_sans_bold"
+                    app:outlineColor="#000000"
+                    app:outlineWidth="0"
+                    android:background="#000000"/>
+
+                <TextView
+                    android:id="@+id/tv_genre"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_poster"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="false"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="genre"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

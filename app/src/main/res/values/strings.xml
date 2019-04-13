@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">Watch List</string>
+    <string name="love_death_robots_2019"><![CDATA[Love, Death, & Robots (2019)]]></string>
+    <string name="released">RELEASED</string>
+    <string name="title_nav_2">UPCOMING</string>
+
+    <string-array name="film_title">
+        <item>Love, Death, &amp; Robots</item>
+        <item>Stranger Things</item>
+        <item>Mr. Robot</item>
+        <item>Black Mirror</item>
+        <item>Breaking Bad</item>
+        <item>The Godfather</item>
+        <item>Star Wars: Episode VII</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Edge of Tomorrow</item>
+        <item>Fight Club</item>
+	      <item>Our Planet</item>
+        <item>Spider-Man: Far From Home</item>
+        <item>Dark Phoenix</item>
+        <item>Pokémon Detective Pikachu</item>
+        <item>Stranger Things: Season Three</item>
+        <item>The New Mutants</item>
+        <item>The Lion King</item>
+        <item>The Crown: Season Four</item>
+        <item>Anabelle Comes Home</item>
+        <item>Mindhunter</item>
+    </string-array>
+
+    <string-array name="film_release">
+        <item>2019</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2011</item>
+        <item>2008</item>
+        <item>1972</item>
+        <item>2015</item>
+        <item>2018</item>
+        <item>2014</item>
+        <item>1999</item>
+        <item>April 2019</item>
+        <item>July 2019</item>
+        <item>June 2019</item>
+        <item>May 2019</item>
+        <item>July 2019</item>
+        <item>August 2019</item>
+        <item>July 2019</item>
+        <item>August 2019</item>
+        <item>June 2019</item>
+        <item>July 2019</item>
+    </string-array>
+
+    <string-array name="film_genre">
+        <item>Animation, Comedy, Fantasy</item>
+        <item>Drama, Fantasy, Horror</item>
+        <item>Crime, Drama, Thriller</item>
+        <item>Drama, Sci-Fi, Thriller</item>
+        <item>Crime, Drama, Thriller</item>
+        <item>Crime, Drama</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Animation, Action, Adventure</item>
+        <item>Action, Sci-Fi</item>
+        <item>Drama</item>
+        <item>Documentary</item>
+        <item>Action, Adventure, Comedy</item>
+        <item>Action, Adventure, Sci-Fi</item>
+        <item>Action, Adventure, Comedy</item>
+        <item>Drama, Fantasy, Horror</item>
+        <item>Action, Horror, Sci-Fi</item>
+        <item>Drama, Adventure</item>
+        <item>Drama, History</item>
+        <item>Thriller, Horror</item>
+        <item>Crime, Drama, Thriller</item>
+    </string-array>
+
+    <string-array name="film_info">
+        <item>A collection of animated short stories that span various genres including science fiction, fantasy, horror and comedy.</item>
+        <item>When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.</item>
+        <item>Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he works for.</item>
+        <item>An anthology series exploring a twisted, high-tech world where humanity\'s greatest innovations and darkest instincts collide.</item>
+        <item>A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family\'s future.</item>
+        <item>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</item>
+        <item>Three decades after the Empire\'s defeat, a new threat arises in the militant First Order. Defected stormtrooper Finn and the scavenger Rey are caught up in the Resistance\'s search for the missing Luke Skywalker.</item>
+        <item>Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from other dimensions to stop a threat for all realities.</item>
+        <item>A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.</item>
+        <item>An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.</item>
+        <item>Documentary series focusing on the breadth of the diversity of habitats around the world, from the remote Arctic wilderness and mysterious deep oceans to the vast landscapes of Africa and diverse jungles of South America.</item>
+        <item>Peter Parker and his friends go on summer vacation to Europe, where Peter finds himself trying to fight off a new foe, Mysterio, who as his name indicates may not be all that he appears.</item>
+        <item>The X-Men face their most formidable and powerful foe when one of their own, Jean Grey, starts to spiral out of control. During a rescue mission in outer space, Jean is nearly killed when she\'s hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. The X-Men must now band together to save her soul and battle aliens that want to use Grey\'s new abilities to rule the galaxy.</item>
+        <item>A young man joins forces with Detective Pikachu to unravel the mystery behind his father\'s disappearance. Chasing clues through the streets of Ryme City, the dynamic duo soon discover a devious plot that poses a threat to the Pokémon universe.</item>
+        <item>The third season of the American science fiction-horror web television series Stranger Things, titled onscreen as Stranger Things 3, will premiere exclusively via Netflix\'s web streaming service on July 4, 2019. The series was created by the Duffer Brothers, who are also executive producers along with Shawn Levy, Dan Cohen and Iain Paterson.</item>
+        <item>The New Mutants is an upcoming American horror film in the superhero genre, based on the Marvel Comics team of the same name, produced by 20th Century Fox and distributed by Walt Disney Studios Motion Pictures.[3] It is the thirteenth and final installment in the X-Men film series. The film is directed by Josh Boone from a screenplay by himself and Knate Lee, and stars Anya Taylor-Joy, Maisie Williams, Charlie Heaton, Henry Zaga, Blu Hunt, and Alice Braga. In The New Mutants, a group of young mutants held in a secret facility fight to save themselves.</item>
+        <item>From Disney Live Action, director Jon Favreau\'s all-new -The Lion King- journeys to the African savanna where a future king is born. Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub\'s arrival. Scar, Mufasa\'s brother -and former heir to the throne- has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba\'s exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his.</item>
+        <item>Netflix-original drama chronicles the life of Queen Elizabeth II (Claire Foy) from the 1940s to modern times. The series begins with an inside look at the early reign of the queen, who ascended the throne at age 25 after the death of her father, King George VI. As the decades pass, personal intrigues, romances, and political rivalries are revealed that played a big role in events that shaped the later years of the 20th century.</item>
+        <item>Paranormal investigators Ed and Lorraine Warren keep a possessed doll locked up in an artifacts room in their house. When the doll awakens the room\'s evil spirits, it soon becomes a night of terror for the couple\'s young daughter and her friends.</item>
+        <item>Mindhunter is an American crime drama web television series created by Joe Penhall, based on the true crime book Mindhunter: Inside the FBI\'s Elite Serial Crime Unit written by John E. Douglas and Mark Olshaker.[2] The series is executive produced by Penhall, David Fincher, and Charlize Theron among others, and debuted worldwide on Netflix on October 13, 2017.</item>
+    </string-array>
+
+    <string-array name="film_drawable">
+        <item>ldr</item>
+        <item>st</item>
+        <item>mrb</item>
+        <item>bm</item>
+        <item>bb</item>
+        <item>godfather</item>
+        <item>sw</item>
+        <item>sp</item>
+        <item>eot</item>
+        <item>fc</item>
+        <item>op</item>
+        <item>ffh</item>
+        <item>dp</item>
+        <item>pikacu</item>
+        <item>st3</item>
+        <item>tnm</item>
+        <item>lk</item>
+        <item>tc</item>
+        <item>ach</item>
+        <item>mh</item>
+    </string-array>
+
+    <string-array name="film_stat">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="film_score">
+        <item>84</item>
+        <item>80</item>
+        <item>79</item>
+        <item>82</item>
+        <item>84</item>
+        <item>74</item>
+        <item>78</item>
+        <item>84</item>
+        <item>76</item>
+        <item>84</item>
+        <item>84</item>
+        <item>78</item>
+        <item>00</item>
+        <item>00</item>
+        <item>00</item>
+        <item>83</item>
+        <item>82</item>
+        <item>81</item>
+        <item>00</item>
+        <item>75</item>
+    </string-array>
+
+    <string-array name="film_duration">
+        <item>30</item>
+        <item>25</item>
+        <item>35</item>
+        <item>41</item>
+        <item>150</item>
+        <item>104</item>
+        <item>125</item>
+        <item>116</item>
+        <item>134</item>
+        <item>120</item>
+        <item>60</item>
+        <item>138</item>
+        <item>120</item>
+        <item>131</item>
+        <item>30</item>
+        <item>140</item>
+        <item>110</item>
+        <item>55</item>
+        <item>129</item>
+        <item>35</item>
+    </string-array>
+
+    <string-array name="film_trailer">
+        <item>https://www.youtube.com/watch?v=wUFwunMKa4E</item>
+        <item>https://www.youtube.com/watch?v=b9EkMc79ZSU</item>
+        <item>https://www.youtube.com/watch?v=xIBiJ_SzJTA</item>
+        <item>https://www.youtube.com/watch?v=V0XOApF5nLU</item>
+        <item>https://www.youtube.com/watch?v=HhesaQXLuRY</item>
+        <item>https://www.youtube.com/watch?v=sY1S34973zA</item>
+        <item>https://www.youtube.com/watch?v=sGbxmsDFVnE</item>
+        <item>https://www.youtube.com/watch?v=g4Hbz2jLxvQ</item>
+        <item>https://www.youtube.com/watch?v=yUmSVcttXnI</item>
+        <item>https://www.youtube.com/watch?v=qtRKdVHc-cE</item>
+        <item>https://www.youtube.com/watch?v=aETNYyrqNYE</item>
+        <item>https://www.youtube.com/watch?v=1-q8C_c-nlM</item>
+        <item>https://www.youtube.com/watch?v=1roy4o4tqQM</item>
+        <item>https://www.youtube.com/watch?v=bILE5BEyhdo</item>
+        <item>https://www.youtube.com/watch?v=YEG3bmU_WaI</item>
+        <item>https://www.youtube.com/watch?v=bu9e410C__I</item>
+        <item>https://www.youtube.com/watch?v=O9EvBdzHvqI</item>
+        <item>https://www.youtube.com/watch?v=JWtnJjn6ng0</item>
+        <item>https://www.youtube.com/watch?v=bCxm7cTpBAs</item>
+        <item>https://www.youtube.com/watch?v=evdxH50J3rs</item>
+    </string-array>
+
+    <string-array name="film_moviedb">
+        <item>https://www.themoviedb.org/tv/86831-love-death-robots?language=en-US</item>
+        <item>https://www.themoviedb.org/tv/66732-stranger-things?language=en-US</item>
+        <item>https://www.themoviedb.org/tv/62560-mr-robot?language=en-US</item>
+        <item>https://www.themoviedb.org/tv/42009-black-mirror?language=en-US</item>
+        <item>https://www.themoviedb.org/tv/1396-breaking-bad?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/238-the-godfather?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/140607-star-wars-the-force-awakens?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/324857-spider-man-into-the-spider-verse?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/137113-edge-of-tomorrow?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/550-fight-club?language=en-US</item>
+        <item>https://www.themoviedb.org/tv/83880-our-planet?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/429617-spider-man-far-from-home?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/320288-x-force?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/447404-detective-pikachu?language=en-US</item>
+        <item>https://www.imdb.com/title/tt4574334/episodes?season=3</item>
+        <item>https://www.themoviedb.org/movie/340102-x-men-the-new-mutants?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/8587-the-lion-king?language=en-US</item>
+        <item>https://www.themoviedb.org/tv/65494-the-crown?language=en-US</item>
+        <item>https://www.themoviedb.org/movie/521029-annabelle-comes-home?language=en-US</item>
+        <item>https://www.themoviedb.org/tv/67744-mindhunter?language=en-US</item>
+    </string-array>
+
+
+</resources>
+
